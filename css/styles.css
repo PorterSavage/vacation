@@ -15,3 +15,41 @@ body {
 h2{
   padding: 30px 0px 30px 0px;
 }
+ li {
+   list-style: none;
+ }
+
+ .card {
+   text-align: center;
+   position: relative;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 3px solid black;
+ }
+
+ .card-body {
+   -ms-flex: 1 1 auto;
+   flex: 1 1 auto;
+   padding: 1.25rem;
+   margin: 0px 20px 0px 0;
+   border-radius: 10%;
+ }
+
+ .card-header {
+   padding: 5px 5px;
+   margin-bottom: 5;
+   color: inherit;
+   background-color: rgba(0, 0, 0, 0.03);
+   border-bottom: 5px solid black;
+   border-style: dotted;
+ }
+
+ .card-title {
+   margin-bottom: 0.75rem;
+ }
